@@ -1,0 +1,37 @@
+*{
+	font-family: Arial;
+}
+
+body{
+	min-height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #D3D3D3;
+	font-size:13px;
+}
+
+.changerbox{
+	/* position: float; */
+	text-align: center;
+	border: 2px solid white;
+	padding: 5px 5px; /*top & side*/
+	width: 200px;
+}
+
+.colourBtn{
+	padding: 0.25rem 0.5rem;
+	border: 2px solid white;
+	border-radius: 7px;
+	color: white;
+	background: rgba(0,0,0,0.6); /*faded*/
+	font-size: 1.5rem;
+	cursor: pointer;
+	text-transform: capitalize;
+	outline: none;
+	
+}
+
+.colourBtn:hover{
+	background: rgba(0,0,0);
+}
