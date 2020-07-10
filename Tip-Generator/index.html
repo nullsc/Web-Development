@@ -13,10 +13,12 @@
 <div class='mainbox'>
 	<h1>Tip Generator</h1>
 	<form>
-		<label for="pBox">Total Price:</label>
-		<input type="text" id="pBox" name="price">
-		<label for="tBox">Tip:</label>
-		<input type="text" id="tBox" name="tip">
+	<div class="input-boxes">
+		<label for="pBox">Total Price (£):</label>
+		<input type="text" id="pBox" name="price" placeholder="100">
+		
+		<label for="tBox">Tip (%):</label>
+		<input type="text" id="tBox" name="tip" placeholder="0">
 		
 		<label for="tAmounts">Choose a level of service:</label>
 		<select id="tAmounts" name="tAmounts">
@@ -26,11 +28,14 @@
 			<option value="10">10% - Good</option>
 			<option value="20">20% - Great</option>
 		</select>
+	</div>
 	</form>
 	<p>Push the button to calculate the tip!</p>
 	<p id="result"></p>
-	<button type="button" class="cBtn">
+	<button type="button" class="cBtn" id="calculateBtn">
 	Calculate</button>
+	<button type="button" class="cBtn" id="resetBtn">
+	Reset</button>
 	
 
 </div>
