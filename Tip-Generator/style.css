@@ -40,3 +40,6 @@ form{
     /* text-align: center; */
 }
 
+input[type=text]:focus {
+	border: 3px solid #555;
+}
