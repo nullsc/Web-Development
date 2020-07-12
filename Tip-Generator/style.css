@@ -22,6 +22,13 @@ body{
 	/* display: block; */
 }
 
+.input-boxes{ 
+	/* display: block; */
+	/* text-align: center; */
+	width: 100px; /*have to set a width to center the input fields*/
+	margin: 0 auto;
+}
+
 
 .cBtn{
 	border: none;
@@ -32,12 +39,12 @@ body{
 	padding: 4px 20px 4px 20px;
 }
 
-form{
-    display: block;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* text-align: left; */
-    /* text-align: center; */
+ 
+input, label, select{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
 }
 
 input[type=text]:focus {
