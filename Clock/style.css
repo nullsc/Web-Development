@@ -1,1 +1,17 @@
-//
+*{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	min-height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+
+}
+
+#clock {
+	font-size: 10rem;
+	color: #52cc06;
+}
