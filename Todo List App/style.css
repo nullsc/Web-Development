@@ -1,0 +1,47 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	min-height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ebd088;
+
+}
+
+li {
+	list-style: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 5px;
+	background-color: #d9a211;
+	min-width: 300px;
+	min-height: 1rem;
+	text-align: left;
+}
+
+li:hover {
+	background-color: #f2e5c2;
+}
+
+li > button {
+	float: right;
+	background: none;
+	border: none;
+}
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
+
+.main-text {
+	text-align: center;
+}
