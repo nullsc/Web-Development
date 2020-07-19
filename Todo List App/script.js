@@ -30,3 +30,11 @@ function add() {
 		li.classList.add("delete");
 	}
 }
+
+//use enter key to input
+input.addEventListener("keyup", function(event) {
+	if (event.keyCode === 13) { //enter key
+		event.preventDefault(); //cancel default action
+		add();
+	}
+});
