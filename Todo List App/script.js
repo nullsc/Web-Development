@@ -12,7 +12,7 @@ function add() {
 	var li = document.createElement("li"); // creates an element "li"
 	li.appendChild(document.createTextNode(input.value)); //makes text from input field the li text
 	ul.appendChild(li); //adds li to ul
-	console.log(input.value);
+	//console.log(input.value); //debug
 	input.value = ""; //Reset text input field
 	
 	function crossOut() { //func inside so only applies to new
