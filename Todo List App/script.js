@@ -35,6 +35,6 @@ function add() {
 input.addEventListener("keyup", function(event) {
 	if (event.keyCode === 13) { //enter key
 		event.preventDefault(); //cancel default action
-		add();
+		add(); //call function directly
 	}
 });
